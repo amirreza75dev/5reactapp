@@ -1,0 +1,427 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(204, 213, 255);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a{
+
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+
+}
+
+/* .birthday styles ........
+
+  
+ 
+ */
+
+.birth_sec{
+  min-height: 20vh; 
+  margin: 4rem auto;
+  overflow: hidden;
+  background-color: white;
+  width: 30%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.birth_sec h2{
+
+  margin: 1rem 0;
+  
+
+
+}
+
+.listBirthday{
+  width: 100%;
+  margin-left: 100px;
+}
+
+.person{
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  
+}
+
+.person img{
+  width: 60px;
+  height: 60px;
+  border-radius: 60px 60px;
+}
+.person_detail{
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.clear_button{
+  width: 60%;
+  height: 60px;
+  color: white;
+  background-color: tomato;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+
+
+ /* ........ tour styles ....... */
+
+.tourlist{
+  width: 40%;
+  margin: 20px auto;
+
+
+}
+
+.tourlist img{
+
+  width: 100%;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.tour_info{
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.tour_info p {
+  /* margin-right: 20px; */
+  font-size: 1.5em;
+  background-color: rgb(114, 206, 206,0.5);
+  border-radius: 5px;
+  padding: 0 10px;
+}
+
+
+.tourlist p {
+  font-size: 1.5em;
+
+}
+
+.tourlist > button{
+  margin: 10px auto;
+  display: grid;
+  padding: 10px 20px;
+  color: red;
+  border: red;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+#button{
+
+  border: 0;
+  background: rgb(131, 207, 212);
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 5px;
+  margin-left: 10px;
+
+
+}
+
+.tour_api{
+  text-align: center;
+  margin: auto auto;
+  font-size: 1.5em;
+  /* display: grid; */
+  /* background: chocolate; */
+  padding: 30px 30px;
+  display:block;text-align:center
+  
+}
+
+
+/* .... reviews styles .....*/
+
+
+.reviews{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  margin: 100px auto;
+  background: white;
+  border-radius: 10px;
+  
+}
+
+.border{
+  width: 100px;
+  height: 3px;
+  background: blue;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.reviews_sec{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 60vh;
+}
+.reviews_sec img{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+.reviews_sec h2{
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.reviews_sec h3{
+  color: rgb(46, 46, 209);
+  margin-bottom: 1rem;
+}
+
+.reviews_sec p{
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.5em;
+}
+
+.icons{
+
+  margin-bottom: 1rem;
+}
+.icon{
+  font-size: 1.5em;
+}
+
+.reviews_sec button{
+  background-color: rgb(112, 112, 216);
+  color: white;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+
+/*  ////////   question styles    /////// */
+
+
+.questions_sec{
+  background-color: rgb(82, 14, 146);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.qestion_container{
+  width: 70%;
+  min-height: 60vh;
+  background: white;
+  border-radius: 10px;
+  display: flex;
+
+}
+.question_bio{
+  width: 30%;
+}
+.question_bio h1{
+  text-align: center;
+  margin-top: 20px;
+  width: 60%;
+
+
+
+}
+.question_box{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+
+}
+
+
+.questions_list{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  flex-wrap: wrap;
+ 
+
+}
+
+.questions_list span{
+  background: rgb(194, 189, 189);
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  text-align: center;
+  /* vertical-align: middle;
+  display: inline-block; */
+  line-height: 20px;
+}
+.questions_list p{
+
+  flex-basis: 100%;
+  margin: 10px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  display: none;
+  
+}
+.show_awnser{
+  display: block !important
+  ;
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  min-height: 80vh;
+  flex-direction: column;
+  margin: 10px auto;
+
+}
+
+.menu .title{
+  font-size: 1.8em;
+}
+
+.buttons{
+  width: 30%;
+}
+.menu_buttons{
+  margin: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.menu_buttons button{
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: rgb(243, 172, 40);
+  
+}
+.menu_buttons button:hover{
+  background: none;
+
+}
+
+.menu_items .item{
+  display: flex;
+  width: 100%;
+
+}
+.menu_items .item img{
+  width: 150px;
+  height: 200px;
+  margin: 10px;
+  border: 5px solid saddlebrown;
+  border-radius: 5px;
+  object-fit: cover;
+  
+}
+
+.item .price{
+  margin: 10px 0;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 20% 80%;
+  width: 100%;
+}
+.item .price h3:nth-child(2){
+  border-bottom: 1px solid salmon;
+  /* justify-self: center; */
+  text-align: right;
+}
+.item .price h3{
+  border-bottom: 1px solid salmon;
+  /* justify-self: center; */
+  
+}
+.item .price p{
+  margin-top: 10px;
+
+  grid-column: 2 span;
+  /* font-size: 1.5em; */
+
+}
+
+
+/* .... home page styles  .... */
+
+
+.home-page{
+  width: 50%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 50vh;
+  /* align-items: center; */
+  background: white;
+  border-radius: 10px;
+
+}
+.home-page h1{
+  font-size: 1.5em;
+  border: 3px dotted white;
+  padding: 30px;
+  border-bottom: 3px dotted brown;
+  text-align: center;
+}
+.home-page a{
+  font-size: 1.5em;
+  border: 3px dotted white;
+  padding: 30px;
+  margin: 10px 0;
+  border-bottom: 3px dotted brown;
+  text-align: center;
+  /* flex-basis: 100%; */
+
+}
+
+
+
