@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/amirreza75dev/5reactapp.git/static/css/main.74489f72.css",
+    "main.js": "/amirreza75dev/5reactapp.git/static/js/main.7efe332a.js",
+    "index.html": "/amirreza75dev/5reactapp.git/index.html",
+    "main.74489f72.css.map": "/amirreza75dev/5reactapp.git/static/css/main.74489f72.css.map",
+    "main.7efe332a.js.map": "/amirreza75dev/5reactapp.git/static/js/main.7efe332a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74489f72.css",
+    "static/js/main.7efe332a.js"
+  ]
+}
