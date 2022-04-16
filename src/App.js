@@ -1,5 +1,5 @@
 import Birthday from './birthday'
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import {HashRouter as Router, Switch, Route} from 'react-router-dom'
 import Tour from './tour'
 import Reviews from './reviews'
 import Questions from './question'
